@@ -1,0 +1,1014 @@
+/*---------------------------------*/
+/* global style */
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url(imagess/dubstep.jpg); 
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+
+.wrapper {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/*--------------------------------------*/
+/* navigation section */
+
+.navigation {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hamburger{
+    display:none !important; 
+}
+
+.navigation img {
+    width: 100px;
+    height: 100px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
+
+.navigation a:hover {
+    background-color: rgb(0, 191, 255);
+}
+
+.navigation a:active {
+    background-color: bisque;
+}
+
+/*---------------------------------------*/
+/* hero section */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url(imagess/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero img {
+    width: 100px;
+}
+
+.hero h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(7, 7, 7);
+    font-size: 70px;
+    font-weight: bold;
+    word-spacing: 20px;
+    text-shadow: 2px 2px 5px white;
+    padding-bottom: 150px;
+}
+
+.hero h2 {
+    font-family: 'DynaPuff', cursive;
+    color: rgba(251, 4, 205, 0.989);
+    font-size: 50px;     
+}
+
+.hero p {
+    font-family: 'DynaPuff', cursive;
+    color: rgba(251, 4, 205, 0.989);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.hero h3 {
+    font-family: 'DynaPuff', cursive;
+    color: yellow;
+    font-size: 40px; 
+    padding-top: 10px; 
+}
+
+.hero a {
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    color: rgb(6, 6, 6);
+    background-color: rgb(15, 237, 237);
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    box-shadow: rgba(255, 255, 255, 0.886);
+    text-decoration: none;
+}
+
+.hero a:hover {
+    background-color: rgb(191, 0, 255);
+}
+
+.hero a:active {
+    background-color: rgb(200, 249, 7);
+}
+
+/*---------------------------------------------*/
+/*Video*/
+
+.video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+}
+
+/*---------------------------------*/
+/* slogan section */
+
+.slogan {
+    background-color: white;
+    }
+
+.slogan h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 40px;
+    background-image: url(imagess/News.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.phrase p {
+    font-family: 'Chewy', cursive;
+    color: rgb(38, 40, 42);
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+/*------------------------------------*/
+/* lineup section */
+
+.lineup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px;
+    background-image: url(imagess/artists.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: .5s;
+}
+
+.lineup a {
+    color: #ee46d2;
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgba(10, 10, 10, 0.604);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.lineup a:hover {
+    color: rgb(72, 240, 10);
+    transform: scale(1.4) skew(10deg) rotate(10deg);
+}
+
+
+/*-----------------------------------------*/
+/* tickets section */
+
+.earlybird {
+    background-color: rgb(4, 4, 4);
+    border: 20px solid black;
+}
+
+.earlybird h2 {
+    font-family: 'DynaPuff', cursive;
+    color: rgb(255, 253, 253);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.earlybird p {
+    font-family: 'Chewy', cursive;
+    color: yellow;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+}
+
+.tickets {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    border: 20px solid black;
+    border-bottom: 40px solid black;
+}
+
+.tickets h2 {
+    font-family: 'Chewy', cursive;
+    color: rgb(0, 255, 229);
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tickets h3 {
+    font-family: 'Chewy', cursive;
+    color: rgb(0, 255, 229);
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tickets p {
+    font-family: 'Chewy', cursive;
+    color: rgb(34, 255, 0);
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.ticketsbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.ticketsbox {
+    background-image: url(imagess/tickets.jpg);
+    width: 30%;
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-style: ridge;
+    box-shadow: 3px 3px 6px rgba(245, 245, 245, 0.648);
+}
+
+.ticketsbox a {
+    font-family: 'Chewy', cursive;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(191, 0, 255);
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 10px rgba(165, 42, 42, 0.69);
+    text-decoration: none;
+}
+
+.ticketsbox a:hover {
+    background-color: rgb(40, 159, 159);
+}
+
+.ticketsbox a:active {
+    background-color: dodgerblue;
+}
+
+/*---------------------------------------*/
+/* info section */
+
+.info {
+    display: flex;
+    background-color: black;
+}
+
+.involved {
+    background-image: url(imagess/involved.jpg);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+    border-top: 10px solid black;
+}
+
+
+.involved a {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.involved a:hover {
+    color: aquamarine;
+}
+
+.involved a:active {
+    color: rgb(209, 19, 209);
+}
+
+.playing {
+    background-image: url(imagess/playing.jpg);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.playing a {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.playing a:hover {
+    color: aquamarine;
+}
+
+.playing a:active {
+    color: rgb(209, 19, 209);
+}
+
+.merchandise {
+    background-image: url(imagess/eel.jpg);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.merchandise a {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.merchandise a:hover {
+    color: aquamarine;
+}
+
+.merchandise a:active {
+    color: rgb(209, 19, 209);
+}
+.quote {
+    background-color: white;
+}
+.quote h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 40px;
+    background-image: url(imagess/bigroom.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.travel {
+    background-image: url(imagess/around.jpg);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.travel a {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.travel a:hover {
+    color: aquamarine;
+}
+
+.travel a:active {
+    color: rgb(209, 19, 209);
+}
+
+.news {
+    background-image: url(imagess/News.jpg);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.news a {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.news a:hover {
+    color: aquamarine;
+}
+
+.news a:active {
+    color: rgb(209, 19, 209);
+}
+
+.vendors {
+    background-image: url(imagess/stores.jpg);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.vendors a {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.vendors a:hover {
+    color: aquamarine;
+}
+
+.vendors a:active {
+    color: rgb(209, 19, 209);
+}
+
+/*----------------------------------------*/
+/* logo and footer */
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.logo h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(255, 252, 252);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 5px;
+}
+
+.logo img {
+    width: 500px;
+    height: 250px;
+}
+
+
+
+
+ 
+/*-------------------------------------*/
+/* footer section */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: black;
+}
+
+.newsletter {
+    width: 30%;
+}
+
+.newsletter h2 {
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+.newsletter p {
+    font-family: 'Chewy', cursive;
+    font-size: 14px;
+    color: aquamarine;
+}
+
+.inputemail {
+    font-family: 'Chewy', cursive;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #e8dfdf;
+    border: 1px solid rgb(220, 198, 198);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.inputemail:focus {
+    background-color: white;
+    outline: none;
+    border: 1px solid red;
+}
+
+.inputemail::placeholder {
+    font-style: italic;
+}
+
+.sendemail {
+    font-family: 'Chewy', cursive;
+    padding: 10px;
+    background-image: linear-gradient(rgb(13, 205, 239), rgb(109, 188, 202));
+    border: 1px solid rgb(223, 163, 163);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.sendemail:hover {
+    color: white;
+    background-image: linear-gradient(rgb(21, 235, 17), rgb(109, 202, 115));
+}
+
+.footerlinks a {
+    display: block;
+    padding: 10px;
+    font-family: 'Chewy', cursive;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footerlinks a:hover {
+    color: #b807f8;
+}
+
+.media img {
+    filter: grayscale(100%) drop-shadow(0px 0px 0px rgb(219, 60, 60));
+    padding: 5px;
+    transition: .5s;
+}
+
+.media img:hover {
+    filter: grayscale(0%) drop-shadow(5px 5px 4px rgb(209, 33, 33)) saturate(10);
+    transform: scale(1.2) rotate(40deg);
+}
+
+.media i {
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(11, 167, 245);
+    transition: 0.5s;
+}
+
+.media i:hover {
+    color: rgb(255, 0, 157);
+    transform: scale(1.4) rotate(-10deg);
+}
+
+
+.copyright{
+    background-color: black;
+}
+
+.ScrollToTop {
+    cursor: pointer;
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    color: aqua;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: center; 
+       
+ }
+
+  
+.copyright i {
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border: 20px solid black;
+    font-size: 10px;
+}
+
+
+
+
+
+
+/*---------------------------------------*/
+/* ARTISTS SECTION */
+/*---------------------------------------*/
+
+.artisthero {
+    height: 400px;
+    background-image: url(imagess/hero.jpg);
+    text-align: center;
+}
+
+.artisthero h1{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 80px;
+    padding-top: 50px;
+    color: #c70e11;
+}
+
+
+.artisthero p{
+    font-family: 'DynaPuff', cursive;
+    font-weight: bolder;
+    color: rgb(3, 192, 254);
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding-bottom: 100px;
+   
+}
+
+.artistcontent {
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.artistinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    background: #45f3f35e;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+.gradient1 {
+    background: linear-gradient(to bottom right, #89fffd, #ef32d9); 
+}
+
+.gradient2 {
+    background: linear-gradient(to bottom right, #ffff1c, #00c3ff); 
+}
+
+.gradient3 {
+    background: linear-gradient(to bottom right, #0ABFBC, #FC354C); 
+}
+
+.artistinfo img{
+    height: 150px;
+    border-radius: 20px;
+    width: 40%;
+    box-shadow: 2px 2px 5px rgba(245, 245, 245, 0.648);
+    
+}
+
+.artistinfo:hover img {
+    transform: perspective(2000px) rotateY(30deg) rotateX(50deg) scale(1.5);
+ }
+
+.artistdetails h2{
+    font-family: 'DynaPuff', cursive;
+    color: rgb(250, 123, 5);
+    font-size: 30px;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+.artistdetails p{
+    font-family: 'Chewy', cursive;
+    color: rgb(4, 4, 4);
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 20px;   
+}
+
+.artistlogo {
+    background-color: rgba(0, 0, 0, 0.646);
+}
+
+.playlist {
+    background-color: #0ABFBC;
+    height:150px;
+}
+
+.playlist h2 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+    color: rgb(249, 247, 247);
+    text-align: center;
+    padding: 60px;
+}
+
+.spotify {
+   background-color: black;
+   border: 40px solid black;
+  display: flex;
+}
+
+/*........................................................*/
+/* MOBILE CSS */
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:1280px){
+
+   
+
+    /*---------------------------------------------*/
+    /*MOBILE NAVIGATION*/
+
+    .navigation {
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        height: 80px;
+        overflow: hidden;
+        transition: 1s;  
+    }
+
+    .navigation a{
+        font-size: 4vw;
+    }
+
+    .navigation img {
+        display: none;
+    }
+    .active {
+        height: 550px !important;
+    }
+
+    .hamburger {
+        display: block !important;
+        font-size: 20px !important;
+    }
+   
+
+
+    /*------------------------------------------*/
+    /*MOBILE HERO*/
+
+    .hero h1{
+        font-size:7vw;
+    }
+
+    .hero h2{
+        font-size:5vw;
+    }
+
+    .hero p{
+        font-size: 4vw;
+    }
+
+    .hero a{
+        font-size: 3.5vw;
+    }
+
+    .hero h3{
+        font-size: 4vw;
+    }
+
+   
+
+    /*----------------------------------------*/
+    /*MOBILE SLOGAN*/
+
+    .slogan h1{
+        font-size: 7vw;
+    }
+
+    .phrase p{
+        font-size: 3vw;
+    }
+
+    /*---------------------------------------------*/
+    /*MOBIILE LINEUP*/
+
+    .lineup{
+        flex-direction: column;
+        font-size: 5vw;
+    }
+
+    .lineup a{
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    /*-----------------------------------------------*/
+    /*MOBILE EARLY BIRD*/
+
+    .earlybird h2{
+        font-size: 5vw;
+    }
+
+    .earlybird p{
+        font-size: 3vw;
+    }
+
+    /*----------------------------------------------*/
+    /*MOBILE TICKETS*/
+
+    .tickets {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tickets h2 {
+        font-size: 4vw;
+    }
+
+    .ticketsbox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .ticketsbox a{
+        font-size: 3.5vw;
+    }
+
+    /*----------------------------------------------*/
+    /*MOBILE INFO QUOTE*/
+
+    .involved a{
+        font-size: 6vw;
+    }
+
+    .playing a{
+        font-size: 6vw;
+    }
+
+    merchandise a{
+        font-size: 6vw;
+    }
+
+    .quote h1{
+        font-size: 7vw;
+    }
+
+    .travel a{
+        font-size: 6vw;
+    }
+
+    .news a{
+        font-size: 6vw;
+    }
+
+    vendors a{
+        font-size: 6vw;
+    }
+
+   
+    /*-------------------------------------------*/
+    /*MOBILE LOGO*/
+
+    .logo h1{
+        font-size: 7vw;
+    }
+
+    .logo img {
+        width:300px;
+        height: 150px;
+    }
+
+
+    /*----------------------------------------------*/
+    /*MOBILE FOOTER*/
+
+    .footer{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .newsletter{
+        width:100%;
+    }
+
+    .newsletter h2{
+        font-size:5vw;
+    }
+
+    .newsletter p{
+        font-size:3vw;
+    }
+
+    .footerlinks a{
+        font-size:3vw;
+    }
+
+    .media i{
+        font-size: 3vw;
+    }
+
+    .ScrollToTop {
+        font-size: 3vw;
+    }
+
+    /*---------------------------------------------*/
+    /*MOBILE ARTISTS PAGE*/
+
+    
+    .artistcontent{
+        flex-direction:column;
+        align-items: center;
+    }
+     
+    .artistinfo{
+        width:90%;
+        text-align:center;
+    }
+     
+    .artistinfo img{
+        width:60%;
+    }
+     
+    .artistdetails h2{
+        padding-top:30px;
+        font-size:5vw;
+    }
+     
+    .artistdetails p{
+        font-size:3vw;
+    }
+
+    .playlist h2 {
+        font-size: 5vw;
+    }
+
+    .spotify {
+        display: flex;
+        flex-direction: column;
+    }
+        
+         
+         
+
+  
+
+    
+
+
+ /* everything above this closing bracket */
+
+}
